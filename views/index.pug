@@ -10,5 +10,5 @@ html(lang="en")
             h1 #{message } 
             form(action="/file", method="post" enctype= "multipart/form-data") 
                 input(type="file",required ,name="file",id='file')
-                input(type="password" ,placeholder="Enter Password",name="password",id='password') 
+                input(type="password",required,placeholder="Enter Password",name="password",id='password') 
                 button(type="submit") upload
